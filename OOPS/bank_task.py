@@ -33,10 +33,6 @@ def main():
     user1.CreateAccount() 
     print()
     user1.DisplayAccountInfo()
-    # print("Bank Name :",user1.Bank_Name)
-    # print("Rate of Interest :",user1.ROI_on_FD)
-    # print("Bank Name :",user1.__class__.Bank_Name)
-    # print("Rate of Interest :",user1.__class__.ROI_on_FD)
     user1.bank_info()
 if __name__ == '__main__':
     main()

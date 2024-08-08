@@ -21,3 +21,23 @@ Objects:
     ->behaviours ->functions of the objects 
     ->the properties that all object have are defined in a method called __init__()
     ->__init__ sets the initial state of the object
+
+Property() method 
+    ->is a built-in-function
+    ->allows us to create a special type of attribute called a property for a class
+    ->to manage attribute acccess ,encapsulation and validation within a class
+    ->The property() function can be used instead of the @Property decorator to achieve same functionality
+
+    #Syntax :
+    property (fget=None,fset=None,fdel=None,doc=None)
+    fget->to get the value
+    fset->to set the value
+    fdel->to delete the attribute
+    doc->string that serve as a documentation for the attribute
+
+
+
+
+
+
+
